@@ -92,11 +92,10 @@
         }
       }
     },
-    "tag": {
+    "tags": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::tag.tag",
-      "inversedBy": "articles"
+      "relation": "oneToMany",
+      "target": "api::tag.tag"
     }
   }
 }

@@ -17,12 +17,6 @@
     },
     "slug": {
       "type": "string"
-    },
-    "articles": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::article.article",
-      "mappedBy": "tag"
     }
   }
 }
